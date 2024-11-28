@@ -1,0 +1,15 @@
+python3 .\create_test_file.py "C:\Users\Student\Desktop\ParlaMint\trainfiles generating\ParlaMint-SI\2002" .\ozadja .\vodni_zig .\FillLayout3.py .\add_background.py .\image_processing.py 1
+
+
+"C:\Users\Student\Desktop\ParlaMint\ParlaMint-AT\1996"
+
+
+python .\ocr_google_testing.py "C:\Users\Student\Desktop\ParlaMint\trainfiles generating\ParlaMint-SI\2000\________" .\test-00022-60f5eb715c5a.json
+
+python .\ocr_and_join.py .\test-00022-60f5eb715c5a.json "C:\Users\Student\Desktop\ParlaMint\trainfiles generating\ParlaMint-SI\2000"
+
+python .\create_train_files.py .\test-00022-60f5eb715c5a.json "C:\Users\Student\Desktop\ParlaMint\trainfiles generating\ParlaMint-SI\2000"
+
+python .\segment_one_file.py "C:\Users\Student\Desktop\ParlaMint\trainfiles generating\ParlaMint-SI\2000\2000_ocr.txt"
+
+python .\clean_file.py "C:\Users\Student\Desktop\ParlaMint\trainfiles generating\ParlaMint-SI\2000\2000_ocr.txt"

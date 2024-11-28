@@ -1,0 +1,58 @@
+MINUSI:
+
+Nazive podvaja (tipa "_Poročevalec Lenarčič:_ Poročevalec Lenarčič:", "Deželni glavar: Deželni glavar:", "Gospod poslanec Povše ima besedo. Poslanec Povše: Poslanec Povše: Poslanec Povše:")
+
+Podvajanje na koncu dokumenta?  "_par dneh_ par dneh par dneh par dneh"
+
+dodajanje oklepajev tipa (Proti zuwiesen.), (Proti 114 an.)
+
+V oklepaju hoče max en stavek: (Po prestanku.  Nach einer Pause.) -> (Po prestanku. (Nach einer Pause.)
+
+Slovenski izbriše nemško v oklepaju: (Obvelja.  Angenommen.)
+
+Solnograški -> Solno
+
+kraticam jemlje piko: gld. -> gld 
+
+OVERFITAL SE JE ZGLEDA NA PRIMERE KO SE VELIKOKRAT ISTO ZAPOREDJE BESED PONAVLJA (iz trainseta ko so pogosto Hvala, Izvolite, Hvala, Izvolite... najbrz je pri alignmentu prislo do teh problemov dodatno)
+
+številke: 4¼% -> 41 / 4 %, 4·1% -> 41%
+
+ne razume letnic s piko: 1903. -> 1903,
+
+besede odstranjuje: Dr Šušteršič : -> Dr Š :
+
+dodajanje čudnih znakov: kateri^
+
+vi­ narsko -> vinorodno
+
+. . . . . . -> ............
+
+1. julija t. l. dovoli dosmrtna podpora -> 1. julija tudi dovoli dosmrtna podpora
+
+velikokrat v oklepaj doda Proti, Za: (Dež. odb. štev.  1250 l. 1886.) -> (Proti 1104 1. 1886.)
+To pride iz trainseta ker je velikokrat glasovanje v sodobnih tekstih kjer potem piše v oklepajih (Proti __), (Za __)
+
+R a d o v 1 j i c -> R.a do v 1 je i lic
+
+PLUSI:
+
+Besede razdeljene združi (pred­ lagan -> predlagan)
+
+Odstranjuje odvečne presledke
+
+doda čudne znake?? narodna -> "närodna"
+
+?? resultat -> rezultat
+tj popravlja starinski zapis - ni ravno zaželjeno
+
+?? dodatno odstranjuje vezaje ki so povezovali deljene besede (lahko rešimo z dodatnim čiščenjem dataseta da so vsi isti na začetku - gre za drug Unicode znak od - ali --)
+
+
+
+KOMENTAR: 
+razen napisanega niti ne toliko pokvari... problem je tudi v primerjalni knjižnici ki nekatere odstavke zazna kot dodatno različne
+
+poleg tega zaznava popravljene presledke in izpuščanje -- kot slabo, čeprav v večini primerov to v bistvu popravlja napake v besedah? to se nanaša na referenčni na roke popravljeni dokument...
+
+
